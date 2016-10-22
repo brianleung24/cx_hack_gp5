@@ -168,10 +168,12 @@
 #header{
   margin-bottom: 0;
   padding: 30px 0 60px 0;
+  background: #006564;
 }
 
 #header .navbar-inverse .container{
   position: relative;
+  
 }
 
 .search{
@@ -182,7 +184,7 @@
 }
 
 .search i{
-  color: #00aeef;
+  color: #fff;
   cursor: pointer;
   position: absolute;
   right: 10px;
@@ -195,6 +197,7 @@
   right: 15px;
   display: none;
   height: 50px;
+  
 }
 
 .search-form{
@@ -204,24 +207,23 @@
   color: #818285;
   font-weight: 300;
   outline: none;
-  border: 1px solid #00aeef;
+  border: 1px solid #006564;/**/
   margin-top: 20px;
   border-radius: 4px;
 }
 
 .social-icons ul li{
   padding: 0 10px;
-
+  /*background: #006564;fb icon bg color*/
 }
 
 .social-icons ul li:last-child{
   padding-right: 0;
-
 }
 
 .social-icons ul li a{
   font-size: 18px;
-  color: #d3d3d3;
+  color: #fff;/*icon color*/
   padding: 0;
 }
 
@@ -251,7 +253,7 @@
 }
 
 #header .navbar {
-  background: #fff;
+  background: #006564;/**/
   border: 0;
   margin-bottom: 0;
 }
@@ -289,7 +291,7 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
+  color: #fff;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
@@ -2002,6 +2004,7 @@ span.stButton_gradient,
   margin-bottom: 96px;
 }
 
+
 .single-price ul {
   padding: 0;
   margin: 0;
@@ -2042,8 +2045,10 @@ span.stButton_gradient,
 .single-price.price-four .plan-name {
   background-color: #6c825f;
 }
-
-
+.table th{
+    text-align: center;
+    
+}
 .single-price .plan-price { 
   color: #fff;
   float: none;
