@@ -1,4 +1,5 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
+<?php include'../connectDB.php';?>
     <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
@@ -18,87 +19,46 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <p><h2>You have xxx miles. xxx miles more to the next stage.</h2></p>
-            <p><h2>Not a member yet? Join now!</h2></p>
+
+                <?php
+                echo $_SESSION['isMarco'];
+                if($_SESSION['isMarco']==1){?>
+                <p><h2>You have 200,000 miles. 100,000 miles more to the next stage.</h2></p>
+                <?php }else{?>
+                <p><h2>Not a member yet? Join now!</h2></p>
+                <?php }?>
             </div>
             <div class="row">
-                
+
+                <?php
+
+                $query_marco = 'select * from hackaton.marco;';
+                $result_marco = $conn->query($query_marco);
+
+                while($row_marco = $result_marco->fetch_array(MYSQLI_ASSOC)) {
+
+
+                ?>
                 <div class="portfolio-items">
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded logos">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                                    <img src="<?=$row_marco['pic']?>" class="img-responsive" alt="">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" id="marco_alert" data-id="<?=$row_marco['marco_id']?>" data-target="#myM">
                                             <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
                                             </button></li>
-                                          
-                                    
                                     </ul>
                                 </div>
                             </div>
+                            <h3><?=$row_marco['marco_name']?></h3>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
-                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-                                            </button></li>
-                                          
-                                    
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
-                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-                                            </button></li>
-                                          
-                                    
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
-                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-                                            </button></li>
-                                          
-                                    
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
+                    <?php }?>
+
                     
                 </div>
                 
@@ -113,6 +73,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="btn_submit" value="Submit">Submit</button>
                 
               </div>
             </div>
@@ -130,6 +91,52 @@
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>    
+    <script type="text/javascript" src="js/main.js"></script>
+<script>
+    $(document).ready(function() {
+        var submit_id ;
+        $("#btn_close").click(function() {
+            location.reload();
+        })
+
+        $(document).on("click","#marco_alert", function () {
+
+            submit_id = $(this).data('id');
+
+
+            $.ajax({
+                type: "POST",
+                url: 'marco_submit.php',
+                data: {submit: "select_detail", id: submit_id},
+                dataType:'text',
+                success: function(data){
+                    $("#marcodetail").append(data);
+
+                }
+            });
+        })
+
+        $("#btn_submit").click(function() {
+            var oid =  submit_id;
+            console.log(oid);
+            $.ajax({
+                type: "POST",
+                url: 'marco_submit.php',
+                data: {submit: "Submit", oid: oid, user_id:"<?=$_SESSION['user_id']?>"},
+                dataType:'text',
+                success: function(data){
+                    if (jQuery.trim(data) === "SUCCESS") {
+                        //alert("The food is ordered.");
+                        location.reload();
+                    }
+                }
+            });
+
+        });
+
+
+
+    });
+</script>
 </body>
 </html>
