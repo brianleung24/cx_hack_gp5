@@ -110,7 +110,7 @@
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
+                                <img src="images/oj.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
@@ -129,7 +129,7 @@
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="">
+                                <img src="images/coffee.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
@@ -148,11 +148,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
+                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item folio">
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/7.jpg" class="img-responsive" alt="">
+                                <img src="images/blanket.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">

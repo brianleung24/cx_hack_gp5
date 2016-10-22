@@ -52,11 +52,8 @@
                 <div class="User">
 <!--                    User Info-->
                     <h3>Hello <?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?>, </h3>
-                    <h3>Flight number:&nbsp;&nbsp;<?= isset($_SESSION['flight'])?$_SESSION['flight']:''?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Number:&nbsp;<?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3></p>
-                    <!--<h3><?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?></h3>
-                    <h3><?= isset($_SESSION['flight'])?$_SESSION['flight']:''?></h3>
-
-                    <h3><?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3>
+                    <h3>Flight number:&nbsp;&nbsp;<?= isset($_SESSION['flight'])?$_SESSION['flight']:''?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Number:&nbsp;<?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3>
+                    
 
 
                 </div>

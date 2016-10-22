@@ -32,10 +32,7 @@
                         
 
                         while($row_food = $result_food->fetch_array(MYSQLI_ASSOC)) {
-                            
-                            
-                            
-                            echo '<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
+                                                    echo '<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
                                     <div class="portfolio-wrapper">
                                         <div class="portfolio-single">
                                             <div class="portfolio-thumb" id="food">
@@ -56,9 +53,7 @@
                                     </div>
                                 </div>';
                         }
-                        
                     ?>
-
                     
                 </div>
                 
