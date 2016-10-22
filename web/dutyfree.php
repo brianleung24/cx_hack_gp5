@@ -7,7 +7,7 @@
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Duty Free</h1>
-                            <p>.....</p>
+                            <p>Buy things for you or  your beloved one</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                                    <img src="images/df1.jpg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -59,7 +59,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
+                                    <img src="images/df2.jpg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -84,7 +84,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                    <img src="images/df3.jpg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -109,7 +109,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                    <img src="images/df4.jpeg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -134,7 +134,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
+                                    <img src="images/df5.jpg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -159,7 +159,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/6.jpg" class="img-responsive" alt="">
+                                    <img src="images/df6.jpg" class="img-responsive" alt="" style="height: 269px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -184,7 +184,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/7.jpg" class="img-responsive" alt="">
+                                    <img src="images/portfolio/7.jpg" class="img-responsive" alt="" >
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -333,26 +333,12 @@
                     </div>
                     
                 </div>
-                <div class="portfolio-pagination">
-                    <ul class="pagination">
-                      <li><a href="#">left</a></li>
-                      <li><a href="#">1</a></li>
-                      <li><a href="#">2</a></li>
-                      <li class="active"><a href="#">3</a></li>
-                      <li><a href="#">4</a></li>
-                      <li><a href="#">5</a></li>
-                      <li><a href="#">6</a></li>
-                      <li><a href="#">7</a></li>
-                      <li><a href="#">8</a></li>
-                      <li><a href="#">9</a></li>
-                      <li><a href="#">right</a></li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
         
-        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel" style="vertical-align: middle;">
+          <div class="modal-dialog" role="document" s>
             <div class="modal-content">
               
               <div class="modal-body">

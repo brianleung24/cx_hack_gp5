@@ -26,7 +26,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal1.jpg" class="img-responsive" alt="" style="height: 195px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -47,7 +47,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal2.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -67,7 +67,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal3.jpg" class="img-responsive" alt="" style="height: 195px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -145,7 +145,7 @@
             </div>
         </div>
         
-        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel" >
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               

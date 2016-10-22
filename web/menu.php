@@ -12,8 +12,8 @@ if(!isset($_SESSION['username'])){?>
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 class="title">Portfolio</h1>
-                            <p>Be Creative</p>
+                            <h1 class="title">Menu</h1>
+                            
                         </div>
                     </div>
                 </div>
@@ -31,7 +31,13 @@ if(!isset($_SESSION['username'])){?>
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                                    <table style="background-color: #006564;">
+                                        <tr>
+                                            <td><img src="images/mealicon.png" class="img-responsive" alt=""></td>
+
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <div class="portfolio-view">
                                     <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
@@ -43,7 +49,13 @@ if(!isset($_SESSION['username'])){?>
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
+                                    <table style="background-color: #a34035;">
+                                        <tr>
+                                            <td><img src="images/dficon.png" class="img-responsive" alt=""></td>
+
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <div class="portfolio-view">
                                     <a href="dutyfree.php"><img src="images/portfolio/3.jpg" class="img-responsive" alt=""></a>
@@ -56,10 +68,16 @@ if(!isset($_SESSION['username'])){?>
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                    <table style="background-color: #a34035;">
+                                        <tr>
+                                            <td><img src="images/serviceicon.png" class="img-responsive" alt=""></td>
+
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="service.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
                                 </div>
                             </div>
                             
@@ -69,10 +87,16 @@ if(!isset($_SESSION['username'])){?>
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                    <table style="background-color: #006564;">
+                                        <tr>
+                                            <td><img src="images/portfolio/4.jpg" class="img-responsive" alt=""></td>
+
+                                        </tr>
+                                    </table>
+                                    
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="marcopolo.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
                                 </div>
                             </div>
                             

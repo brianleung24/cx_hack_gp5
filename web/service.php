@@ -34,91 +34,75 @@
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/1.jpg" class="img-responsive" alt="">
+                                <img src="images/water.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
-                                    <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                    <li><a href="images/portfolio/1.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                    <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="portfolio-info ">
-                            <table class="table">
-                                <tr>
-                                    <td><h2>name</h2></td>
-                                    <td><h2></h2></td>
-                                </tr>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
+                                <img src="images/noodle.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
-                                    <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                    <li><a href="images/portfolio/2.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                    <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="portfolio-info">
-                            <table class="table">
-                                <tr>
-                                    <td><h2>name</h2></td>
-                                    <td><h2></h2></td>
-                                </tr>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item folio">
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                <img src="images/tb.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
-                                    <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                    <li><a href="images/portfolio/3.jpg"  data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                    <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="portfolio-info ">
-                            <table class="table">
-                                <tr>
-                                    <td><h2>name</h2></td>
-                                    <td><h2></h2></td>
-                                </tr>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
                     <div class="portfolio-wrapper">
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                <img src="images/nuts.jpg" class="img-responsive" alt="" style="height: 269px;">
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
-                                    <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                    <li><a href="images/portfolio/4.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                    <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="portfolio-info ">
-                            <table class="table">
-                                <tr>
-                                    <td><h2>name</h2></td>
-                                    <td><h2></h2></td>
-                                </tr>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>
@@ -130,18 +114,14 @@
                             </div>
                             <div class="portfolio-view">
                                 <ul class="nav nav-pills">
-                                    <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                    <li><a href="images/portfolio/5.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
-                                </ul>
+                                    <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                     </ul>
                             </div>
                         </div>
                         <div class="portfolio-info ">
-                            <table class="table">
-                                <tr>
-                                    <td><h2>name</h2></td>
-                                    <td><h2></h2></td>
-                                </tr>
-                            </table>
+                            
                         </div>
                     </div>
                 </div>

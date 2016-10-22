@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <?php session_start(); ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Portfolio Default | Triangle</title>
+    <title>Cathay Pacific</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet">  
@@ -32,55 +33,27 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="menu.php">
                         <h1><img src="images/logo.png" alt="logo"></h1>
                     </a>
                     
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="aboutus2.html">About 2</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="contact2.html">Contact us 2</a></li>
-                                <li><a href="404.html">404 error</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>                    
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown active"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a class="active" href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                            </ul>
-                        </li>                         
-                        <li><a href="shortcodes.html ">Shortcodes</a></li>                    
+                        <li><a href="menu.php">Home</a></li>
+                        <li><a href="food.php">Inflight meal</a></li>
+                        <li><a href="service.php">I-Service</a></li>                      
+                        <li><a href="dutyfree.php">Duty Free</a></li>    
+                        <li><a href="marcopolo.php">Macro Polo</a></li>  
                     </ul>
                 </div>
                 <div class="User">
 <!--                    User Info-->
-                    <?php session_start(); ?>
-                    <h3><?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?></h3>
+                    <h3>Hello <?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?>, </h3>
+                    <h3>Flight number:&nbsp;&nbsp;<?= isset($_SESSION['flight'])?$_SESSION['flight']:''?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Seat Number:&nbsp;<?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3></p>
+                    <!--<h3><?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?></h3>
                     <h3><?= isset($_SESSION['flight'])?$_SESSION['flight']:''?></h3>
-                    <h3><?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3>
+                    <h3><?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3>-->
                 </div>
             </div>
         </div>
