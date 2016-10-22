@@ -1,9 +1,11 @@
 <?php include 'header.php';?>
     <?php
-    if(isset($_SESSION['username'])){
-        header("Location: /menu.php");
-    }
-    ?>
+    if(isset($_SESSION['username'])){?>
+<script>
+    window.location.replace("menu.php");
+
+    </script>
+<?php }?>
    <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
