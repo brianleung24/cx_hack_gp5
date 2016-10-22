@@ -1026,8 +1026,8 @@ ul.elements li > i{
 
 .portfolio-single:hover .portfolio-view{
   display: block;
-  -webkit-animation: fadeInUp 400ms;
-  animation: fadeInUp 400ms;
+  /*-webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;*/
 }
 
 #portfolio .row{
@@ -1049,16 +1049,12 @@ ul.elements li > i{
   padding: 0;
   display: inline-block;
   margin-top: -26px;
-  top: 0;
+  top: 50%;
   position: relative;
 }
 
-.portfolio-view .nav-pills li {
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.portfolio-view .nav-pills li a {
+.portfolio-view .nav-pills li button{
+  background: transparent;
   color: #fff;
   border: 1px solid #fff;
   width: 40px;
@@ -1067,17 +1063,17 @@ ul.elements li > i{
   text-align: center;
   padding: 0;
   border-radius: 40px;
-  -webkit-animation: scaleIn 400ms linear 100ms both;
+  /*-webkit-animation: scaleIn 400ms linear 100ms both;
   animation: scaleIn 400ms linear 100ms both;
   -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
+  transition: all 0.9s ease;*/
 }
 
 .portfolio-view .nav-pills li a:hover {
   color: #702340;
   border-color: #702340;
-  -webkit-transition: all 0.9s ease;
-  transition: all 0.9s ease;
+  /*-webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;*/
 }
 
 .portfolio-info {
