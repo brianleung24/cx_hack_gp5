@@ -39,7 +39,7 @@
                                     <img src="images/portfolio/2.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="dutyfree.php"><img src="images/portfolio/3.jpg" class="img-responsive" alt=""></a>
                                 </div>
                             </div>
                             
