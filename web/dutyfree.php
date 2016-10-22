@@ -345,7 +345,7 @@
                    <table class="table">
                         <tr>
                             <td><h2>Quantity: </h2></td>
-                            <td><h2><input type="number" name="quantity" min="1" max="10"></h2></td>
+                            <td><h2><input type="number" name="quantity" min="1" max="10" value="1"></h2></td>
                         </tr>
                     </table>
                   
