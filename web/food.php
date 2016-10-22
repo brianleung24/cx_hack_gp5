@@ -86,7 +86,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal4.jpg" class="img-responsive" alt="" style="height: 195px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -105,7 +105,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal5.jpg" class="img-responsive" alt="" style="height: 195px;">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
@@ -124,7 +124,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                    <img src="images/meal6.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
