@@ -16,6 +16,7 @@
         <option value="product">Duty Free</option>
         <option value="food">Meal</option>
         <option value="service">Service</option>
+        <option value="marco">Marco Polo</option>
     </select>
     <button id="order">Get Orders</button>
 

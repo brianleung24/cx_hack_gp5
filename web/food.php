@@ -28,7 +28,7 @@
                         $query_food = 'select * from hackaton.food;';
                         $result_food = $mysqli->query($query_food);
                         
-                        
+
                         while($row_food = $result_food->fetch_array(MYSQLI_ASSOC)) {
                             
                             
@@ -105,7 +105,6 @@
                     dataType:'text',
                     success: function(data){
                          $("#fooddetail").append(data); 
-
                     }
                 });
             })
@@ -116,7 +115,7 @@
                 $.ajax({
                     type: "POST",
                     url: 'food_123.php',
-                    data: {submit: "Submit", oid: oid},
+                    data: {submit: "Submit", oid: oid, user_id:"<?=$_SESSION['user_id']?>"},
                     dataType:'text',
                     success: function(data){
                         if (jQuery.trim(data) === "SUCCESS") {

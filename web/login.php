@@ -29,14 +29,14 @@ echo json_encode($user);
         session_start();
         $_SESSION['user_id'] = $user->user_id;
         $_SESSION['username'] = $user->name;
-        $_SESSION['isMarco'] = $user->isMarco;
+        $_SESSION['isMarco'] = $user->is_marco;
         $_SESSION['flight'] = $user->flight;
         $_SESSION['seat'] = $user->seat;
-
+echo $_SESSION['isMarco'];
         //echo json_encode($_SESSION['user_id']);
 //echo $_SESSION['username'];
         //redirect to index
-        header("Location: /index.php");
+        //header("Location: /index.php");
     }
 }
 
