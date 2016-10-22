@@ -66,7 +66,6 @@
         <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
-              
               <div class="modal-body" id="fooddetail">
 
               </div>
@@ -89,13 +88,15 @@
     
         <script>
         $(document).ready(function() {
-            
+            var submit_id ;
             $("#btn_close").click(function() {
                 location.reload();
             })
             
             $(document).on("click","#food_alert", function () {
                 var my = $(this).data('id');
+                submit_id = my;
+
                 
                 $.ajax({
                     type: "POST",
@@ -103,14 +104,15 @@
                     data: {submit: "select_detail", id: my},
                     dataType:'text',
                     success: function(data){
-                         $("#fooddetail").append(data);                                       
+                         $("#fooddetail").append(data); 
+
                     }
                 });
             })
             
-            $("#btn_submit".click(function() {
-                var oid = $("#food_alert").data('id');
-                
+            $("#btn_submit").click(function() {
+                var oid =  submit_id;
+                console.log(oid);
                 $.ajax({
                     type: "POST",
                     url: 'food_123.php',
@@ -125,11 +127,11 @@
                     }
                 });
                 
-            })
+            });
             
             
             
-        })
+        });
     </script>
 </body>
 </html>
