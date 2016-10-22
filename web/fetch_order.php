@@ -20,14 +20,18 @@ join $type item on item.$item_id = o.product_id
 join user user on user.user_id = o.user_id where user.flight = '$flight'; ";
    // echo $query;
     $result = mysqli_query($mysqli, $query);
+    $json = array();
     if ($result) {
         $orderList = array();
         for ($x = 0; $row = $result->fetch_object(); $x++) {
             //$course = $row->courseID;
             array_push($orderList, $row);
             //echo $row->courseID;
-            echo json_encode($orderList);
+
         }
+
+        $json['rows'] = $orderList;
+        echo json_encode($json);
     } else {
         echo $mysqli->error;//error message
     }
