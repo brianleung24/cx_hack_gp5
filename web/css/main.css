@@ -1049,7 +1049,7 @@ ul.elements li > i{
   padding: 0;
   display: inline-block;
   margin-top: -26px;
-  top: 50%;
+  top: 0;
   position: relative;
 }
 
