@@ -23,6 +23,7 @@
                 
                 <div class="portfolio-items">
 
+
                     
                     <?php 
                         
@@ -57,7 +58,6 @@
                         }
                         
                     ?>
-                    
 
                     
                 </div>
