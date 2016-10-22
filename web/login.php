@@ -27,6 +27,7 @@ if (!empty($username)&&!empty($pw)) {
 //echo json_encode($user);
 //echo $user->password;
 //echo $user['name'];
+        session_start();
         $_SESSION['user_id'] = $user->user_id;
         $_SESSION['username'] = $user->name;
         $_SESSION['isMarco'] = $user->isMarco;
@@ -34,9 +35,9 @@ if (!empty($username)&&!empty($pw)) {
         $_SESSION['seat'] = $user->seat;
 
         //echo json_encode($_SESSION['user_id']);
-
+echo $_SESSION['username'];
         //redirect to index
-        header("Location: /index.php");
+        //header("Location: /index.php");
     }
 }
 

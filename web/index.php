@@ -1,5 +1,9 @@
 <?php include 'header.php';?>
-    
+    <?php
+    if(isset($_SESSION['username'])){
+        header("Location: /menu.php");
+    }
+    ?>
    <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
