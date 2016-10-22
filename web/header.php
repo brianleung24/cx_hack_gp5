@@ -76,8 +76,11 @@
                     </ul>
                 </div>
                 <div class="User">
+<!--                    User Info-->
                     <?php session_start(); ?>
                     <h3><?= isset($_SESSION['username'])?$_SESSION['username']:'Guest'?></h3>
+                    <h3><?= isset($_SESSION['flight'])?$_SESSION['flight']:''?></h3>
+                    <h3><?= isset($_SESSION['seat'])?$_SESSION['seat']:''?></h3>
                 </div>
             </div>
         </div>
