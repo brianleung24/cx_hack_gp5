@@ -17,14 +17,13 @@ $pw = $_POST['password'];
 
 // get data from Single Sign on
 if (!empty($username)&&!empty($pw)) {
-    $courseList = array();
     $query = "SELECT * FROM user WHERE name = '$username'";
     $result = mysqli_query($mysqli, $query);
    //echo json_encode($result->fetch_object());
     if ($result) {
         $user = $result->fetch_object();
         //echo $user->user_id;
-//echo json_encode($user);
+echo json_encode($user);
 //echo $user->password;
 //echo $user['name'];
         session_start();
@@ -35,9 +34,9 @@ if (!empty($username)&&!empty($pw)) {
         $_SESSION['seat'] = $user->seat;
 
         //echo json_encode($_SESSION['user_id']);
-echo $_SESSION['username'];
+//echo $_SESSION['username'];
         //redirect to index
-        //header("Location: /index.php");
+        header("Location: /index.php");
     }
 }
 
