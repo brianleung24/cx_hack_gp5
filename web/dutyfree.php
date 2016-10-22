@@ -38,8 +38,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/1.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -61,8 +63,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/2.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -84,8 +88,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/3.jpg"  data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -107,8 +113,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/4.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -130,8 +138,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/5.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -153,8 +163,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/6.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -176,8 +188,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/7.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -199,8 +213,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/8.jpg#" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -222,8 +238,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/9.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -245,8 +263,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/10.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -268,8 +288,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/11.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -291,8 +313,10 @@
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">
-                                        <li><a href="portfolio-details.html"><i class="fa fa-link"></i></a></li>
-                                        <li><a href="images/portfolio/12.jpg" data-lightbox="example-set"><i class="fa fa-eye"></i></a></li>
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
                                     </ul>
                                 </div>
                             </div>
@@ -332,7 +356,13 @@
             <div class="modal-content">
               
               <div class="modal-body">
-                label
+                   <table class="table">
+                        <tr>
+                            <td><h2>Quantity: </h2></td>
+                            <td><h2><input type="number" name="quantity" min="1" max="10"></h2></td>
+                        </tr>
+                    </table>
+                  
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
