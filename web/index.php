@@ -1,5 +1,9 @@
 <?php include 'header.php';?>
-    
+    <?php
+    if(isset($_SESSION['username'])){
+        header("Location: /menu.php");
+    }
+    ?>
    <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
@@ -25,26 +29,17 @@
                             <p class="plan-name">Login</p>
                             <!--<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>-->
                         </div>    
-                        <form class="form-horizontal">
+                        <form class="form-horizontal" method="POST" action="login.php">
                             <div class="form-group">
-                              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                              <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
                               <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                <input type="text" class="form-control" id="inputEmail3" name = "name" placeholder="Name">
                               </div>
                             </div>
                             <div class="form-group">
                               <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
                               <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                              </div>
-                            </div>
-                            <div class="form-group">
-                              <div class="col-sm-offset-2 col-sm-10">
-                                <div class="checkbox">
-                                  <label>
-                                    <input type="checkbox"> Remember me
-                                  </label>
-                                </div>
+                                <input type="password" name = "password"class="form-control" id="inputPassword3" placeholder="Password">
                               </div>
                             </div>
                             <div class="form-group">
