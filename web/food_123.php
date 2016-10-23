@@ -1,6 +1,7 @@
 <?php
 
 include '../connectDB.php';
+include 'connectDB.php';
 
 if(isset($_POST['submit'])) {
     
@@ -9,6 +10,7 @@ if(isset($_POST['submit'])) {
     
     if($_POST['submit'] == "Submit") {
         $f_id = $_POST['oid'];
+
         $user_id = $_POST['user_id'];
         $query_orderfood = "insert into hackaton.order_food(food_id, user_id) values ('$f_id',$user_id);";
         $result_orderfood = $conn->query($query_orderfood);
@@ -31,7 +33,7 @@ if(isset($_POST['submit'])) {
         $id = $_POST['id'];
         
         $query = 'select * from hackaton.food where food_id = '.$id.';';
-        $result = $conn->query($query);
+        $result = $mysqli->query($query);
         $r = $result->fetch_object();
         
         echo $r->description;

@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include '../connectDB.php';?>
+<?php include 'connectDB.php';?>
 <?php //include '../food.php'; ?>
 
     <section id="page-breadcrumb">
@@ -26,7 +26,7 @@
                     <?php 
                         
                         $query_food = 'select * from hackaton.food;';
-                        $result_food = $conn->query($query_food);
+                        $result_food = $mysqli->query($query_food);
                         
 
                         while($row_food = $result_food->fetch_array(MYSQLI_ASSOC)) {
