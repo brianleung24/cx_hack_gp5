@@ -9,7 +9,12 @@
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Meal</h1>
-                            <p>select your meal</p>
+                            <?php  $isOrderMeal = isset($_SESSION['meal_id']);?>
+                            <?php if($isOrderMeal){?>
+                            <p>You have ordered</p>
+                            <?php }else{?>
+                            <p>Select your meal</p>
+                            <?php }?>
                         </div>
                     </div>
                 </div>
@@ -29,25 +34,31 @@
                         
                         $query_food = 'select * from hackaton.food;';
                         $result_food = $mysqli->query($query_food);
-                        
+
 
                         while($row_food = $result_food->fetch_array(MYSQLI_ASSOC)) {
-                                                    echo '<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
-                                    <div class="portfolio-wrapper">
-                                        <div class="portfolio-single">
-                                            <div class="portfolio-thumb" id="food">
-                                                <img src="images/'.$row_food['pic'].'" class="img-responsive" alt="">
-                                            </div>
-                                            <div class="portfolio-view" id="food">
+                            $isSelected = $_SESSION['meal_id']==$row_food['food_id'];
+                            $overlay = $isSelected? '-webkit-filter: grayscale(1);' : '';
+                            $image = $isSelected ?'selected.png':$row_food['pic'];
+                            $viewBtn = $isOrderMeal?'': '<div class="portfolio-view" id="food">
+
                                                 <ul class="nav nav-pills">
                                                     <li><button type="button" class="btn btn-default" id="food_alert" aria-label="Left Align"  data-toggle="modal" data-target="#myM" data-id="'.$row_food['food_id'].'">
                                                         <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
                                                         </button></li>
                                                 </ul>
+                                            </div>';
+
+                            echo '<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
+                                    <div class="portfolio-wrapper">
+                                        <div class="portfolio-single">
+                                            <div class="portfolio-thumb " id="food">
+                                                <img src="images/'.$image.'" class="img-responsive" alt="" style="'.$overlay.'">
                                             </div>
+                                            '.$viewBtn.'
                                         </div>
                                         <div class="portfolio-info ">
-                                            <h2></h2>
+                                            <h2>'.$row_food['food_name'].'</h2>
                                         </div>
 
                                     </div>
@@ -117,7 +128,7 @@
                     dataType:'text',
                     success: function(data){
                         if (jQuery.trim(data) === "SUCCESS") {
-                            alert("The food is ordered.");
+                            alert("Thanks for ordering, your selected meal will be served soon!");
                         //window.location = window.location.href+"?rnd="+Math.random();
                             location.reload();
                         }                                 

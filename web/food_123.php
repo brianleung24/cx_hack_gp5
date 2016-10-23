@@ -17,6 +17,8 @@ if(isset($_POST['submit'])) {
         
         if ($result_orderfood) {
             $status = 'SUCCESS';
+            session_start();
+            $_SESSION['meal_id']=$f_id;
         } else {
             $status = 'FAILED';
         }

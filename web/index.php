@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
     <?php
     if(isset($_SESSION['username'])){?>
-<script>
+<script xmlns="http://www.w3.org/1999/html">
     window.location.replace("/menu.php");
 
     </script>
@@ -10,10 +10,10 @@
         <div class="vertical-center sun">
              <div class="container">
                 <div class="row">
-                    <div class="action">
-                        <div class="col-sm-12">
+<!--                    <div class="action">-->
+                        <div class="col-sm-8">
                             <h1 class="title">Login</h1>
-                        </div>                        
+<!--                        </div>                        -->
                     </div>
                 </div>
             </div>
@@ -27,10 +27,13 @@
             <div class="row">
                 
                     <div class="single-price price-two">
-                        <div class="table-heading">
-                            <p class="plan-name">Login</p>
-                            <!--<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>-->
-                        </div>    
+
+                        <div class="container">
+                            <div class="table-heading">
+                                <p class="plan-name">Login</p>
+                                </br>
+                                <!--<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>-->
+                            </div>
                         <form class="form-horizontal" method="POST" action="login.php">
                             <div class="form-group">
                               <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
@@ -50,6 +53,7 @@
                               </div>
                             </div>
                           </form>
+                        </div>
                     </div> 
             </div>
         </div><!--/#price-table-->

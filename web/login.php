@@ -36,7 +36,7 @@ echo $_SESSION['isMarco'];
         //echo json_encode($_SESSION['user_id']);
 //echo $_SESSION['username'];
         //redirect to index
-        //header("Location: /index.php");
+        header("Location: /index.php");
     }
 }
 

@@ -21,7 +21,6 @@
             <div class="row">
 
                 <?php
-                echo $_SESSION['isMarco'];
                 if($_SESSION['isMarco']==1){?>
                 <p><h2>You have 200,000 miles. 100,000 miles more to the next stage.</h2></p>
                 <?php }else{?>
@@ -69,7 +68,7 @@
             <div class="modal-content">
               
               <div class="modal-body">
-                label
+                Confirm request?
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -126,7 +125,11 @@
                 dataType:'text',
                 success: function(data){
                     if (jQuery.trim(data) === "SUCCESS") {
-                        //alert("The food is ordered.");
+                      <?php  if($_SESSION['isMarco']==1){?>
+                        alert("Your request has send to our system, we will contact you soon!");
+                        <?php }else{?>
+                        alert("You are not our member yet, please feel free to ask for our latest promotion. ");
+                        <?php }?>
                         location.reload();
                     }
                 }
