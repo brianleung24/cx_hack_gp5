@@ -40,9 +40,10 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="food.php"><img src="images/Slice 6.png" class="img-responsive" alt="" style="height: 165px; width:217px;"></a>
                                 </div>
                             </div>
+                            <div class="portfolio-info "></div>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded folio">
@@ -58,10 +59,10 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="dutyfree.php"><img src="images/portfolio/3.jpg" class="img-responsive" alt=""></a>
+                                    <a href="dutyfree.php"><img src="images/Slice 1.png" class="img-responsive" alt="" style="height: 165px; width:217px;"></a>
                                 </div>
                             </div>
-                            
+                            <div class="portfolio-info "></div>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
@@ -77,29 +78,29 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="service.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="service.php"><img src="images/Slice 4.png" class="img-responsive" alt="" style="height: 165px; width:217px;"></a>
                                 </div>
                             </div>
-                            
+                            <div class="portfolio-info "></div>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <table style="background-color: #006564;">
+                                    <table style="background-color: #006564;" >
                                         <tr>
-                                            <td><img src="images/portfolio/4.jpg" class="img-responsive" alt=""></td>
+                                            <td><img src="images/123.png" class="img-responsive" alt="" style="height: 167px; width:200px;"></td>
 
                                         </tr>
                                     </table>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="marcopolo.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="marcopolo.php"><img src="images/Slice 3.png" class="img-responsive" alt="" style="height: 168px; width:225px;"></a>
                                 </div>
                             </div>
-                            
+                            <div class="portfolio-info "></div>
                         </div>
                     </div>
                     
