@@ -44,7 +44,7 @@
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                    <img src="<?=$row_marco['pic']?>" class="img-responsive" alt="">
+                                    <img src="/images/<?=$row_marco['pic']?>" class="img-responsive" alt="">
                                 </div>
                                 <div class="portfolio-view">
                                     <ul class="nav nav-pills">

@@ -37,7 +37,7 @@
                                     <div class="portfolio-wrapper">
                                         <div class="portfolio-single">
                                             <div class="portfolio-thumb" id="food">
-                                                <img src="images/portfolio/'.$row_food['pic'].'" class="img-responsive" alt="">
+                                                <img src="images/'.$row_food['pic'].'" class="img-responsive" alt="">
                                             </div>
                                             <div class="portfolio-view" id="food">
                                                 <ul class="nav nav-pills">
