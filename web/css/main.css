@@ -159,7 +159,6 @@
     background: rgba(210, 153, 72, 0.7);
   }
 
-
 /*************************
 *******Header******
 **************************/
@@ -167,8 +166,9 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  padding: 30px 0 10px 0;
   background: #006564;
+  color: #fff;
 }
 
 #header .navbar-inverse .container{
@@ -277,7 +277,7 @@
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: #000;
+  color: #fff;/*menu text color*/
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
@@ -295,7 +295,7 @@
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #00aeef;
+  color: #eab970;/*#00aeef;*/
 }
 
 
@@ -389,7 +389,7 @@ ul.sub-menu {
 
 #footer {
   padding-bottom: 10px;
-  background-image: url(../images/home/footer.png);
+  background-image: url(../images/home/slider-bg.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
@@ -1011,6 +1011,7 @@ ul.elements li > i{
 *******Portfolio Default**
 **************************/
 
+
 .portfolio-single {
   position: relative;
 }
@@ -1019,9 +1020,12 @@ ul.elements li > i{
   position: relative;
 }
 
-.portfolio-thumb img {
-  width: 100%;
-}
+/*.portfolio-thumb img {
+  /*width: 100%;*/
+  
+  /*width: 300px;
+  height: 300px;
+}*/
 
 
 .portfolio-single:hover .portfolio-view{

@@ -8,7 +8,7 @@
 
 $mysqli = new mysqli();
 //DB Credentials
-$host = "172.17.0.2";
+$host = "192.168.8.100";
 $user = "root";
 $password = "password";
 $dbname = "hackaton";

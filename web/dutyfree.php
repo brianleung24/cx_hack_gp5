@@ -8,7 +8,7 @@
                     <div class="action">
                         <div class="col-sm-12">
                             <h1 class="title">Duty Free</h1>
-                            <p>.....</p>
+                            <p>Buy things for you or  your beloved one</p>
                         </div>
                     </div>
                 </div>
@@ -31,6 +31,7 @@
                 </ul><!--/#portfolio-filter-->
                     
                 <div class="portfolio-items">
+<<<<<<< HEAD
                     
                     <?php 
                         
@@ -72,22 +73,325 @@
                     ?>
                     
                 </div>
+=======
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df1.jpg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df2.jpg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df3.jpg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df4.jpeg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df5.jpg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/df6.jpg" class="img-responsive" alt="" style="height: 269px;">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/7.jpg" class="img-responsive" alt="" >
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/8.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/9.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item folio">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/10.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item folio">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/11.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item logos">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/12.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><button type="button" class="btn btn-default" aria-label="Left Align" data-toggle="modal" data-target="#myM">
+                                            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                                            </button></li>
+                                          
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <table class="table">
+                                    <tr>
+                                        <td><h2>name</h2></td>
+                                        <td><h2>$$</h2></td>
+                                    </tr>
+                                </table>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
             </div>
         </div>
         
-        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="myM"  role="dialog" aria-labelledby="myModalLabel" style="vertical-align: middle;">
+          <div class="modal-dialog" role="document" s>
             <div class="modal-content">
               
               <div class="modal-body">
                    <table class="table">
                         <tr>
                             <td><h2>Quantity: </h2></td>
-                            <td><h2><input type="number" name="quantity" min="1" max="10" id="qty" style="width: 50px;"></h2></td>
-                        </tr>
-                        <tr>
-                            <td><h2>Total Cost </h2></td>
-                            <td><h2><label id="total_cost"></label></h2></td>
+
+                            <td><h2><input type="number" name="quantity" min="1" max="10" value="1"></h2></td>
+
                         </tr>
                     </table>
                   
