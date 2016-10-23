@@ -46,7 +46,7 @@
                                     <div class="portfolio-wrapper">
                                         <div class="portfolio-single">
                                             <div class="portfolio-thumb">
-                                                <img src="images/portfolio/'.$row_service['pic'].'" class="img-responsive" alt="">
+                                                <img src="images/'.$row_service['pic'].'" class="img-responsive" alt="">
                                             </div>
                                             <div class="portfolio-view">
                                                 <ul class="nav nav-pills">

@@ -31,7 +31,7 @@
                             <p class="plan-name">Login</p>
                             <!--<p class="plan-price"><span class="dollar-sign">$</span><span class="price">89</span><span class="month">/ Month</span></p>-->
                         </div>    
-                        <form class="form-horizontal" method="POST" action="/login.php">
+                        <form class="form-horizontal" method="POST" action="login.php">
                             <div class="form-group">
                               <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
                               <div class="col-sm-10">
