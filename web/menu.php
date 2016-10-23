@@ -40,7 +40,7 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="food.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="food.php"><img src="images/Slice 6.png" class="img-responsive" alt="" style="height: 217px; width:217px;"></a>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="dutyfree.php"><img src="images/portfolio/3.jpg" class="img-responsive" alt=""></a>
+                                    <a href="dutyfree.php"><img src="images/Slice 1.png" class="img-responsive" alt="" style="height: 217px; width:217px;"></a>
                                 </div>
                             </div>
                             
@@ -77,7 +77,7 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="service.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="service.php"><img src="images/Slice 4.png" class="img-responsive" alt="" style="height: 217px; width:217px;"></a>
                                 </div>
                             </div>
                             
@@ -96,7 +96,7 @@ if(!isset($_SESSION['username'])){?>
                                     
                                 </div>
                                 <div class="portfolio-view">
-                                    <a href="marcopolo.php"><img src="images/portfolio/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="marcopolo.php"><img src="images/Slice 3.png" class="img-responsive" alt="" style="height: 225px; width:225px;"></a>
                                 </div>
                             </div>
                             
