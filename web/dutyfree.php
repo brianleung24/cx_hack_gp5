@@ -31,7 +31,6 @@
                 </ul><!--/#portfolio-filter-->
                     
                 <div class="portfolio-items">
-<<<<<<< HEAD
                     
                     <?php 
                         
@@ -73,7 +72,6 @@
                     ?>
                     
                 </div>
-=======
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">

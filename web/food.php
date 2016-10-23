@@ -102,6 +102,7 @@
                     dataType:'text',
                     success: function(data){
                          $("#fooddetail").append(data); 
+
                     }
                 });
             })
